@@ -1,0 +1,29 @@
+# 编译产物（仅根目录的二进制文件）
+/server
+/client
+/tests
+*.o
+*.a
+
+# 构建目录
+build/
+cmake-build-*/
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# 日志文件
+*.log
+/tmp/
+
+# 备份文件
+*.bak
+*.orig
