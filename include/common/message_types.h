@@ -60,7 +60,7 @@ struct MessageHeader {
     uint32_t request_id;        // 请求ID
     uint32_t message_length;    // 消息总长度（包括头部）
 
-    static const size_t SIZE = 12;
+    static constexpr size_t SIZE = 12;
 };
 
 /**
