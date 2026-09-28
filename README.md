@@ -159,6 +159,7 @@ Found 3 flights:
 | `--port=<port>` | 服务器端口 | 8080 | `./server --port=9090` |
 | `--at-least-once` | 启用 At-Least-Once 语义 | 禁用 | `./server --at-least-once` |
 | `--loss-rate=<rate>` | 消息丢失率（0.0-1.0） | 0.0 | `./server --loss-rate=0.3` |
+| `--log-file=<file>` | 日志输出到文件（同时输出到控制台） | 无（仅控制台） | `./server --log-file=server.log` |
 
 ### 客户端参数
 
@@ -172,6 +173,7 @@ Found 3 flights:
 | `--port=<port>` | 服务器端口 | 8080 | `./client --port=9090` |
 | `--at-least-once` | 启用 At-Least-Once 语义 | 禁用 | `./client --at-least-once` |
 | `--loss-rate=<rate>` | 消息丢失率（0.0-1.0） | 0.0 | `./client --loss-rate=0.3` |
+| `--log-file=<file>` | 日志输出到文件（同时输出到控制台） | 无（仅控制台） | `./client --log-file=client.log` |
 
 ### 调用语义说明
 
